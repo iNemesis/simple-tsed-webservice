@@ -1,0 +1,30 @@
+{
+  "name": "presentation-microservices",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.6",
+    "nodemon": "^2.0.3",
+    "ts-node": "^8.9.1",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "@tsed/common": "^5.49.2",
+    "@tsed/core": "^5.49.2",
+    "@tsed/di": "^5.49.2",
+    "@tsed/swagger": "^5.49.2",
+    "@types/swagger-schema-official": "^2.0.21",
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "cookie-parser": "^1.4.5",
+    "express": "^4.17.1",
+    "method-override": "^3.0.0"
+  }
+}
